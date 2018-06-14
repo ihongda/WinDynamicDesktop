@@ -33,7 +33,7 @@ namespace WinDynamicDesktop
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            SendMessage(locationInput.Handle, 0x1501, 1, "Enter your location...");
+            SendMessage(locationInput.Handle, 0x1501, 1, "输入您的位置...");
             if (JsonConfig.settings.Location != null)
             {
                 locationInput.Text = JsonConfig.settings.Location;

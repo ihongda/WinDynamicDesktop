@@ -41,7 +41,7 @@
             this.setLocationButton.Name = "setLocationButton";
             this.setLocationButton.Size = new System.Drawing.Size(132, 35);
             this.setLocationButton.TabIndex = 1;
-            this.setLocationButton.Text = "Set Location";
+            this.setLocationButton.Text = "设置位置";
             this.setLocationButton.UseVisualStyleBackColor = true;
             this.setLocationButton.Click += new System.EventHandler(this.setLocationButton_Click);
             // 
@@ -51,7 +51,7 @@
             this.locationInput.Location = new System.Drawing.Point(28, 23);
             this.locationInput.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.locationInput.Name = "locationInput";
-            this.locationInput.Size = new System.Drawing.Size(265, 30);
+            this.locationInput.Size = new System.Drawing.Size(265, 26);
             this.locationInput.TabIndex = 0;
             // 
             // logOutput
@@ -66,7 +66,7 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(486, 253);
             this.Controls.Add(this.logOutput);
